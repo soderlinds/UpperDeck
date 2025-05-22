@@ -25,6 +25,14 @@
 
 /* Mobile */
 @media (max-width: 768px) {
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
     .content-menu {
         margin-top: 2rem;
     }

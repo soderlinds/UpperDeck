@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .right-content {
@@ -101,6 +101,10 @@
 
     .right-content {
         display: block;
+    }
+
+    .content-startpage {
+        margin-top: 8rem;
     }
 
     .openinghours-mobile {

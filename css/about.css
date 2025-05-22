@@ -71,6 +71,10 @@
     .openinghours {
         display: none;
     }
+
+    .info-header {
+        display: none;
+    }
 }
 
 /* Tablet */
