@@ -1,0 +1,44 @@
+.content-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.menus {
+    margin-top: 2rem;
+}
+
+.menu-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e98b34;
+}
+
+.menu-section {
+    background-color: rgba(217, 217, 217, 0.2);
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .content-menu {
+        margin-top: 2rem;
+    }
+
+    .header-menu {
+        margin-left: 1rem;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content-menu {
+        margin-top: 2rem;
+    }
+
+}
