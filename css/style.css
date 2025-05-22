@@ -130,6 +130,10 @@ a {
     margin-top: 0.3rem;
   }
 
+  .movie-image {
+    display: none;
+  }
+
   .logo-image {
     max-width: 80%;
   }
@@ -260,8 +264,9 @@ a {
   }
 
   .movie-image {
+    margin-top: auto;
     display: block;
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;

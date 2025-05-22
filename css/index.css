@@ -71,6 +71,10 @@
         justify-content: space-around;
         margin-top: 4rem;
     }
+
+    .movie-image {
+        display: none;
+      }
 }
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
