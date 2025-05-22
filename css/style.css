@@ -126,6 +126,10 @@ a {
     background: url("../images/background_sportsnights_mobile.png") no-repeat center center / cover;
   }
 
+  .header {
+    margin-top: 0.3rem;
+  }
+
   .logo-image {
     max-width: 80%;
   }
