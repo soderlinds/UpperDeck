@@ -29,6 +29,10 @@ p {
   color: #f1f1f1;
 }
 
+.openinghours-mobile-p {
+  font-family: "Anton";
+}
+
 a {
   color: #f1f1f1;
   text-decoration: none;
@@ -142,11 +146,14 @@ a {
     margin-top: 27rem;
     text-align: center;
     position: fixed;
+    color: #f1f1f1;
     width: 100vw;
     right: 0;
     left: 0;
     gap: 1rem;
-    background-color: #f1f1f1;
+    background-color: rgba(241, 241, 241, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -155,7 +162,7 @@ a {
     transition: transform 0.3s ease-in-out;
     z-index: 999;
     padding-bottom: 3rem;
-
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
   }
 
   .menu-toggle:checked~.main-nav {
@@ -165,10 +172,9 @@ a {
   .main-nav a {
     display: block;
     padding: 1rem 0;
-    color: #555555;
+    color: #f1f1f1;
     text-decoration: none;
     width: 100%;
-
   }
 
   .hamburger {
@@ -207,30 +213,33 @@ a {
     background-image: url("../images/background_sportsnights_desktop.png");
   }
 
-
+  .header {
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+  }
   .main-nav a {
     display: none;
   }
 
   .main-nav {
-    margin-top: 24rem;
+    margin-top: 29rem;
     position: absolute;
     text-align: center;
     right: 0;
     left: 0;
-    background: linear-gradient(to bottom,
-        rgba(241, 241, 241, 1) 70%,
-        rgba(241, 241, 241, 0.9) 85%,
-        rgba(241, 241, 241, 0.7) 95%,
-        rgba(241, 241, 241, 0.5) 100%);
+    background-color: rgba(241, 241, 241, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 1rem;
+    padding: 1.5rem;
+    gap: 2rem;
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
     z-index: 999;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
   }
 
   .menu-toggle:checked~.main-nav {
@@ -240,10 +249,9 @@ a {
   .main-nav a {
     display: block;
     padding: 1rem 0;
-    color: #555555;
+    color: #f1f1f1;
     text-decoration: none;
     width: 100%;
-
   }
 
   .hamburger {
