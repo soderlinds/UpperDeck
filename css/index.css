@@ -57,6 +57,10 @@
     object-fit: cover;
 }
 
+.instagram-media {
+    margin: 1rem auto;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .openinghours-mobile {
