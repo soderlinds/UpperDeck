@@ -1,5 +1,4 @@
-/* General */
-
+/* General styles for all pages */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +12,7 @@ body {
 }
 
 h1 {
-  font-family: "Patrick hand SC";
+  font-family: "Patrick hand SC", sans-serif;
   color: #f1f1f1;
 }
 
@@ -30,7 +29,7 @@ p {
 }
 
 .openinghours-mobile-p {
-  font-family: "Anton";
+  font-family: "Anton", sans-serif;
 }
 
 a {
@@ -66,7 +65,7 @@ a {
 }
 
 .main-nav a {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: bold;
 }
 
@@ -182,7 +181,6 @@ a {
     position: relative;
     z-index: 1001;
   }
-
 
   .logo {
     margin-left: 0.5rem;

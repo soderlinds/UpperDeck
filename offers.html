@@ -5,23 +5,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Upper Deck Restaurant - Offers</title>
+
+  <!-- Linking to external CSS stylesheets -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/offers.css">
+
+  <!-- Importing Google Fonts for typography -->
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body class="offerspage">
   <div class="container">
+    <!-- HEADER: Contains logo, mobile menu toggle, and navigation -->
     <header class="header">
       <div class="logo">
         <a href="index.html">
           <img src="images/logo_big.png" class="logo-image" alt="Upper Deck Restaurant logo">
         </a>
       </div>
+
+      <!-- Mobile menu toggle checkbox -->
       <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+      <!-- Hamburger icon label for mobile menu -->
       <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">☰</label>
+
+      <!-- Main navigation bar -->
       <nav class="main-nav">
         <a href="menu.html">MENU</a>
         <a href="offers.html" class="active">OFFERS</a>
@@ -30,11 +40,14 @@
       </nav>
     </header>
 
+    <!-- MAIN CONTENT -->
     <main class="content-offers">
       <div>
+        <!-- Section headers for offers -->
         <h1 class="offers-header">SAATH SAATH</h1>
         <h3 class="offers-small-header">of the month</h3>
 
+        <!-- Offer items -->
         <section class="menu-item">
           <h4 class="menu-title">
             Kabhi Nachos Kabhi Cheese <span class="price">179/-</span>
@@ -63,13 +76,17 @@
           <h4 class="menu-title">
             Gol-Aam Returns <span class="price">199/-</span>
           </h4>
-          <p class="menu-desc">This mango-based mocktail blends the richness of mangoes<br>with a dash of citrus and
-            mint<br>+60/- with Vodka</p>
+          <p class="menu-desc">
+            This mango-based mocktail blends the richness of mangoes<br>
+            with a dash of citrus and mint<br>
+            +60/- with Vodka
+          </p>
         </section>
         <div class="clearfix"></div>
       </div>
     </main>
 
+    <!-- FOOTER: Contains an image related to the restaurant's movie theme -->
     <footer class="footer">
       <figure>
         <img src="images/movie.png" class="movie-image" alt="Movie image">

@@ -5,23 +5,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Upper Deck Restaurant – Menu</title>
+
+  <!-- Linking to external CSS stylesheets -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/menu.css">
+
+  <!-- Importing Google Fonts for typography -->
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body class="menupage">
   <div class="container">
+    <!-- HEADER: Logo, mobile menu toggle, and main navigation -->
     <header class="header">
       <div class="logo">
         <a href="index.html">
           <img src="images/logo_big.png" class="logo-image" alt="Upper Deck Restaurant logo">
         </a>
       </div>
+
+      <!-- Checkbox used to toggle the mobile navigation menu -->
       <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+      <!-- Hamburger icon for mobile navigation -->
       <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">☰</label>
+
+      <!-- Main navigation bar -->
       <nav class="main-nav">
+        <!-- 'MENU' is the current page, marked with 'active' class -->
         <a href="menu.html" class="active">MENU</a>
         <a href="offers.html">OFFERS</a>
         <a href="sportsnights.html">SPORTS NIGHTS</a>
@@ -29,24 +41,31 @@
       </nav>
     </header>
 
+    <!-- MAIN CONTENT -->
     <main class="content-menu">
       <div>
         <h1 class="header-menu">SEE OUR MENUS HERE IN PDF</h1>
+
+        <!-- Menu sections with links to PDF files -->
         <div class="menus">
           <section class="menu-section">
-            <h2><a href="menupdf/non-ac-bar.pdf" target="_blank">🍺 Non-AC Bar Menu</a></h2>
+            <h2>
+              <a href="menupdf/non-ac-bar.pdf" target="_blank">🍺 Non-AC Bar Menu</a>
+            </h2>
             <p>Enjoy drinks and snacks in our open-air bar area.</p>
             <a href="menupdf/non-ac-bar.pdf" target="_blank" class="menu-link">View PDF</a>
           </section>
-
           <section class="menu-section">
-            <h2><a href="menupdf/non-ac-food.pdf" target="_blank">🍛 Non-AC Food Menu</a></h2>
+            <h2>
+              <a href="menupdf/non-ac-food.pdf" target="_blank">🍛 Non-AC Food Menu</a>
+            </h2>
             <p>Bold, comforting dishes made to satisfy every craving.</p>
             <a href="menupdf/non-ac-food.pdf" target="_blank" class="menu-link">View PDF</a>
           </section>
-
           <section class="menu-section">
-            <h2> <a href="menupdf/ac-bar.pdf" target="_blank">🍹 AC Bar Menu</a></h2>
+            <h2>
+              <a href="menupdf/ac-bar.pdf" target="_blank">🍹 AC Bar Menu</a>
+            </h2>
             <p>Cocktails, beers, fine spirits, and a cozy indoor atmosphere.</p>
             <a href="menupdf/ac-bar.pdf" target="_blank" class="menu-link">View PDF</a>
           </section>
@@ -54,6 +73,7 @@
       </div>
     </main>
 
+    <!-- FOOTER: Contains an image related to the restaurant's movie theme -->
     <footer class="footer">
       <figure>
         <img src="images/movie.png" class="movie-image" alt="Movie image">
